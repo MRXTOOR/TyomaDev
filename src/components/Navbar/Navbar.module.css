@@ -1,0 +1,22 @@
+.navbarMenu{
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.navbarMenu>div>*{
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.navbarMenu>div{
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

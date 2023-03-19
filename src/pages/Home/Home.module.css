@@ -1,0 +1,27 @@
+.HomeStyle{
+    width: 100%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.divstyle{
+    width: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.cardstyle{
+    width: 30%; 
+    margin:10px;
+    display: flex;
+  
+    justify-content: center;
+    text-align: center;
+}
+.styleLink>*, .styleLink>*:hover{
+
+    color: #fff;
+}

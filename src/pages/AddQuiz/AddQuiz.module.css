@@ -1,0 +1,42 @@
+.AddQuiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+
+}
+.niceBorder{
+    width: 50%;
+    padding: 25px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+    margin: 15px auto;
+    background-color: aliceblue;
+}
+.niceBorderQuiz{
+    width: 90%;
+    padding: 25px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+    margin: 15px auto;
+    background-color: aliceblue;
+}
+
+.niceBorderCard{
+    width: 50%;
+    padding: 25px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .5);
+    margin: 15px auto;
+    display: flex;
+    flex-flow: column;
+    background-color: aliceblue;
+}
+
+*{
+    word-wrap: normal;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a.active, a:focus, a:hover{
+    color: rgb(185, 4, 161);
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+body{
+    background-image: url(./fon.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+/* здесь для полей регистрации и авторизации, потому что мне лень создавать модульные стили */
+
+.RegAuthBox{
+    width: 25%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 7rem 0;
+    opacity: 0.9;
+}
+.RegAuthBox>*{
+    display: flex;
+    flex-flow: column;
+}
+.RegAuthBox>*>*{
+    margin: 1rem 0 !important;
+}
